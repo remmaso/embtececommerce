@@ -58,9 +58,21 @@ const HomeScreen = ({ match }) => {
         </div>
       </div>
     </section>
-    <Col className='text-center py-3'>
-      <h2>Our Services</h2>
-    </Col>
+    <section id="video-play" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <Link to="#" class="video" data-video="https://www.youtube.com/watch?v=CTZUOkvAqo0" data-toggle="modal" data-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i>
+            </Link>
+            <h2>Our Services</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
     <section id="home-icons" class="py-5">
     <div className="container grid-3">
       <div className="row">

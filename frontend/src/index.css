@@ -120,6 +120,23 @@ h2 {
   margin-top:-50px;
 }
 
+#video-play {
+  width:930px;
+  height:300px;
+  position: relative;
+  min-height: 200px;
+  background: url('/images/images1/bg-image/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
 #home-heading {
   position: relative;
   min-height: 50px;

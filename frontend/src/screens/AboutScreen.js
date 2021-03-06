@@ -52,9 +52,7 @@ const About = () => {
       <div className="row">
       <Col className='text-left py-3'>
             <img src="/images/images1/boss.png" alt=""  className="/Image-fluid mb-3"/>
-            
-            
-          </Col>
+            </Col>
           <div className="col-md-6">
           <h3>Mr Emmanuel Okoro</h3>
           <div><h3>FOUNDER/CEO</h3></div>
