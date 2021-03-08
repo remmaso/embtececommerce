@@ -70,7 +70,7 @@ const About = () => {
         <div className="col-md-6 align-self-center">
           <h3>RALPH EMMASON</h3>
           <div><h4>Software Engineer</h4></div>
-          <p>Mr Emmason holds a B.Sc degree Computer Science, he has a wealth of experience in Technologies and archetecture having worked in various Technological companies like Microsoft, Cisco and Banks, in the early days of internet banking he developed a transactionl saver application linking to e-wallet for the bank that earned him an award, also ebay. He is rated by American international company called UPWORK as a TOP Software developer. he is married with two kids
+          <p>Mr Emmason holds a B.Sc degree Computer Science, he has a wealth of experience in Technologies and archetecture having worked in various Technological companies like Microsoft, Cisco and Banks, in the early days of internet banking he developed a transactionl saver application linking to e-wallet for the bank that earned him an award, also ebay. He is rated by American international company called UPWORK as a TOP Software Engineer. He is a Father
           </p>
         </div>
         <div className="col-md-6">
