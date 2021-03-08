@@ -77,11 +77,7 @@ const About = () => {
     </div>
   </section>
   
-  
-  
-
-  
-</Container>
+  </Container>
             
            
       
