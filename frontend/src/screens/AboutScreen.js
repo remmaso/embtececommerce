@@ -27,12 +27,11 @@ const About = () => {
             As we compete to become a global brand, we create class and impressionable branding for personalities and organisations by providing a rich blend of ethics, excellent service experience and best work practice and training that will leverage skills for the next century. </p>
             <div className="col-md-6">
           <img src="/https://source.unsplash.com/random/700x700/?technology" alt="" className="img-fluid rounded-circle d-none d-md-block about-img" />
+          </div>
         </div>
-        </div>
-        </div>
+      </div>
     </div>
   </section>
-
   <section id="home-heading" class="p-5">
     <div className="dark-overlay">
       <div className="row">
@@ -45,8 +44,6 @@ const About = () => {
       </div>
     </div>
   </section>
-  
-
   <section id="explore-section" class="bg-light text-muted py-5">
     <div className="container">
       <div className="row">
@@ -64,21 +61,22 @@ const About = () => {
     </div>
   </section>
     
-  <section id="info" class="py-3">
+  <section id="explore-section" class="bg-light text-muted py-5">
     <div className="container">
       <div className="row">
-        <div className="col-md-6 align-self-center">
-          <h3>RALPH EMMASON</h3>
-          <div><h4>Software Engineer</h4></div>
-          <p>Mr Emmason holds a B.Sc degree Computer Science, he has a wealth of experience in Technologies and archetecture having worked in various Technological companies like Microsoft, Cisco and Banks, in the early days of internet banking he developed a transactionl saver application linking to e-wallet for the bank that earned him an award, also ebay. He is rated by American international company called UPWORK as a TOP Software Engineer. He is a Father
+      <Col className='text-left py-3'>
+            <img src="/images/images1/good.png" alt=""  className="/Image-fluid mb-3"/>
+            </Col>
+          <div className="col-md-6">
+          <h3>Mr Ralph Emmason</h3>
+          <div><h3>Software Engineer</h3></div>
+          <p>Mr Emmason (B.Sc Computer Science)  has a wealth of experience in Technologies and Archetecture having worked in various technological companies like Microsoft, Cisco and Banks, in the early days of internet banking he developed a transactionl saver application linking to e-wallet for the bank that earned him an award, also ebay. He is rated by American international company called UPWORK as a TOP Software Engineer. He is a Father
           </p>
-        </div>
-        <div className="col-md-6">
-          <img src="/images/images1/good.png" alt="" className="img-fluid mb-3" />  
         </div>
       </div>
     </div>
   </section>
+  
   
   
 
