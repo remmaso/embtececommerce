@@ -63,7 +63,7 @@ const HomeScreen = ({ match }) => {
       <div class="row">
         <div class="col">
           <div class="container p-5">
-            <Link to="#" class="video" data-video="https://www.youtube.com/watch?v=CTZUOkvAqo0" data-toggle="modal" data-target="#videoModal">
+            <Link to="#" class="video" data-video="https://www.youtube.com/embed/CTZUOkvAqo0" data-toggle="modal" data-target="#videoModal">
               <i class="fas fa-play fa-3x"></i>
             </Link>
             <h2>Our Services</h2>
@@ -72,7 +72,20 @@ const HomeScreen = ({ match }) => {
       </div>
     </div>
   </section>
-    
+  
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <section id="home-icons" class="py-5">
     <div className="container grid-3">
       <div className="row">
