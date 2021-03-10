@@ -76,6 +76,66 @@ const About = () => {
       </div>
     </div>
   </section>
+  <section id="icon-boxes" class="p-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <div class="card bg-danger text-white text-center">
+            <div class="card-body">
+              <i class="fas fa-building fa-3x"></i>
+              <h3>Vision</h3>
+              To serve the micro, mini and small-scale enterprises (MMSE) and persons whose needs may not adequately be met by/through conventional Institutions/practices 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white text-center">
+            <div class="card-body">
+              <i class="fas fa-bullhorn fa-3x"></i>
+              <h3>Mission</h3>
+              To provide cutting-edge, tailor-made but unique solutions to our varied clientele in a timely manner; always aware that one-size-fits-all don’t work in this segment of the market
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-danger text-white text-center">
+            <div class="card-body">
+              <i class="fas fa-comments fa-3x"></i>
+              <h3>Core Values</h3>
+              Excellence Modeled on Beauty, Transparency, Ethical values and good Conscience
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <section id="home-heading" class="p-5">
+    <div className="dark-overlay">
+      <div className="row">
+        <div className="col">
+          <div className="container pt-5">
+            <h1>Team Members</h1>
+            <p className="d-none d-md-block"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="home-heading" class="p-5">
+    <div className="dark-overlay">
+      <div className="row">
+        <div className="col">
+          <div className="container pt-5">
+          <Col className='text-center py-3'>
+            <img src="/images/images1/members.png" alt="" />
+            </Col>
+            <p className="d-none d-md-block"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>   
   
   </Container>
             

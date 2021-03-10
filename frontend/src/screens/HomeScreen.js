@@ -41,7 +41,7 @@ const HomeScreen = ({ match }) => {
       <div className="row">
         <div className="col-md-6 m-auto text-center">
           <h2>Embtec Konzultz</h2>
-          <p><h5>Providing unique solution...</h5></p>
+          <p><h5>Providing unique solutions...</h5></p>
         </div>
       </div>
     </div>
@@ -73,18 +73,7 @@ const HomeScreen = ({ match }) => {
     </div>
   </section>
   
-  <div class="modal fade" id="videoModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button class="close" data-dismiss="modal">
-            <span>&times;</span>
-          </button>
-          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
 
     <section id="home-icons" class="py-5">
     <div className="container grid-3">
