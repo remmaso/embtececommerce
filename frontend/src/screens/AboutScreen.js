@@ -129,6 +129,7 @@ const About = () => {
           <div className="container pt-5">
           <Col className='text-center py-3'>
             <img src="/images/images1/members.png" alt="" />
+            <h5>Mr Ralph, Miss Blessing, Mr Franc</h5>
             </Col>
             <p className="d-none d-md-block"></p>
           </div>
